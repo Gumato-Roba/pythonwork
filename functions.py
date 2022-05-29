@@ -41,6 +41,7 @@ def greet_multiple(**kwargs):
         print("Hello anonymous")
 
 def sum_and_greet(*args, **kwargs):
+    
         print(args)
         print(kwargs)
 
